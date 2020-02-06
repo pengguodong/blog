@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: test
+  cloud:
+    inetutils:
+      preferred-networks: 127.0.0.1
+server:
+  port: 9999
+eureka:
+  client:
+    healthcheck:
+      enabled: true
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://admin:admin123@node1:8100/eureka/
