@@ -1,5 +1,5 @@
 data:
-  message: 'test1'
+  message: 'test2'
 spring:
   application:
     name: test
