@@ -18,3 +18,11 @@ logging:
 feign:
   hystrix:
     enabled: true
+ 
+hystrix:
+  command:
+    fallbackcmd:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 30000
