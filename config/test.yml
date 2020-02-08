@@ -1,5 +1,5 @@
 data:
-  message: '{cipher}f2204dfd18978f75aed6e6733ea585ef3adf914a3096692a51b7a973f1132ea9'
+  message: 'test1'
 spring:
   application:
     name: test
