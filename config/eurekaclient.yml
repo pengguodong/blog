@@ -1,0 +1,15 @@
+spring:
+  cloud:
+    inetutils:
+      preferred-networks: 127.0.0.1
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+
+feign:
+  hystrix:
+    enabled: true
